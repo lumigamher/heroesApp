@@ -1,0 +1,32 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: black;
+}
+
+.logo img{
+    width: 10rem;
+    margin: 2rem; 
+}
+
+.cards{
+    
+}
+
+.card img{
+    width: 100%;
+
+}
+
+.card {
+    border: 2px white solid;
+    border-radius: 1rem;
+    padding: 0;
+    width: 15rem;
+}
