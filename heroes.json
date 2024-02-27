@@ -112,13 +112,13 @@
         "nombre": "Groot",
         "descripcion": "Groot es un extraterrestre en forma de árbol con la capacidad de regeneración y fuerza sobrehumana.",
         "fecha_lanzamiento": "1960-11-01",
-        "foto": "https://example.com/groot.jpg"
+        "foto": "source/groot.jpg"
       },
       {
         "nombre": "Star-Lord",
         "descripcion": "Peter Quill es un aventurero interestelar y líder de los Guardianes de la Galaxia.",
         "fecha_lanzamiento": "1976-01-01",
-        "foto": "https://example.com/starlord.jpg"
+        "foto": "source/starlord.webp"
       }
     ]
     ,
@@ -127,13 +127,13 @@
         "nombre": "Batman",
         "descripcion": "Bruce Wayne se convierte en el Caballero de la Noche después de presenciar el asesinato de sus padres.",
         "fecha_lanzamiento": "1939-05-01",
-        "foto": "https://example.com/batman.jpg"
+        "foto": "source/batman.webp"
       },
       {
         "nombre": "Superman",
         "descripcion": "Kal-El es un extraterrestre con habilidades sobrehumanas que se convierte en el defensor de Metrópolis.",
         "fecha_lanzamiento": "1938-06-01",
-        "foto": "https://example.com/superman.jpg"
+        "foto": "source/superman.jpg"
       },
       {
         "nombre": "Wonder Woman",
