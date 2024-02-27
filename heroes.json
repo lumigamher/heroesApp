@@ -139,109 +139,109 @@
         "nombre": "Wonder Woman",
         "descripcion": "Diana Prince es una princesa amazona que lucha por la justicia y la paz en el mundo.",
         "fecha_lanzamiento": "1941-10-01",
-        "foto": "https://example.com/wonderwoman.jpg"
+        "foto": "source/ww.jpg"
       },
       {
         "nombre": "The Flash",
         "descripcion": "Barry Allen obtiene velocidad sobrehumana después de ser alcanzado por un rayo y bañado en productos químicos.",
         "fecha_lanzamiento": "1956-10-01",
-        "foto": "https://example.com/theflash.jpg"
+        "foto": "source/flash.jpg"
       },
       {
         "nombre": "Green Lantern",
         "descripcion": "Hal Jordan es reclutado por los Green Lantern Corps y obtiene un anillo que le otorga poderes.",
         "fecha_lanzamiento": "1959-07-01",
-        "foto": "https://example.com/greenlantern.jpg"
+        "foto": "source/greenlantern.jpg"
       },
       {
         "nombre": "Aquaman",
         "descripcion": "Arthur Curry es el rey de la Atlántida y tiene la capacidad de comunicarse y controlar criaturas marinas.",
         "fecha_lanzamiento": "1941-11-01",
-        "foto": "https://example.com/aquaman.jpg"
+        "foto": "source/acuaman.jpg"
       },
       {
         "nombre": "Cyborg",
         "descripcion": "Victor Stone es un atleta estrella que es reconstruido con partes cibernéticas después de un accidente.",
         "fecha_lanzamiento": "1980-07-01",
-        "foto": "https://example.com/cyborg.jpg"
+        "foto": "source/cyborg.jpg"
       },
       {
         "nombre": "Green Arrow",
         "descripcion": "Oliver Queen es un arquero experto y luchador por la justicia, inspirado por Robin Hood.",
         "fecha_lanzamiento": "1941-11-01",
-        "foto": "https://example.com/greenarrow.jpg"
+        "foto": "source/greenarrow.jpeg"
       },
       {
         "nombre": "Shazam",
         "descripcion": "Billy Batson se transforma en un héroe con poderes mágicos cuando pronuncia la palabra 'Shazam'.",
         "fecha_lanzamiento": "1940-02-01",
-        "foto": "https://example.com/shazam.jpg"
+        "foto": "source/shazam.jpg"
       },
       {
         "nombre": "Martian Manhunter",
         "descripcion": "J'onn J'onzz es el último sobreviviente marciano con habilidades de cambio de forma y telepatía.",
         "fecha_lanzamiento": "1955-11-01",
-        "foto": "https://example.com/martianmanhunter.jpg"
+        "foto": "source/MartianManhunter.jpg"
       },
       {
         "nombre": "Hawkman",
         "descripcion": "Carter Hall es un arqueólogo que descubre ser la reencarnación de un príncipe alado del antiguo Egipto.",
         "fecha_lanzamiento": "1940-04-01",
-        "foto": "https://example.com/hawkman.jpg"
+        "foto": "source/howkman.jpg"
       },
       {
         "nombre": "Hawkgirl",
         "descripcion": "Shiera Sanders es la reencarnación de una princesa alada del antiguo Egipto, y compañera de Hawkman.",
         "fecha_lanzamiento": "1940-11-01",
-        "foto": "https://example.com/hawkgirl.jpg"
+        "foto": "source/Hawkgirl-1-1.webp"
       },
       {
         "nombre": "Zatanna",
         "descripcion": "Zatanna es una maga poderosa que realiza hechizos al pronunciar las palabras al revés.",
         "fecha_lanzamiento": "1964-11-01",
-        "foto": "https://example.com/zatanna.jpg"
+        "foto": "source/Zatanna.jpg"
       },
       {
         "nombre": "Nightwing",
         "descripcion": "Dick Grayson es el primer Robin que se convierte en el héroe Nightwing después de dejar de ser el compañero de Batman.",
         "fecha_lanzamiento": "1963-07-01",
-        "foto": "https://example.com/nightwing.jpg"
+        "foto": "source/Nightwing.jpg"
       },
       {
         "nombre": "Red Hood",
         "descripcion": "Jason Todd, el segundo Robin, se convierte en Red Hood después de ser resucitado y adoptar un enfoque más violento.",
         "fecha_lanzamiento": "1983-03-01",
-        "foto": "https://example.com/redhood.jpg"
+        "foto": "source/RedHood.jpg"
       },
       {
         "nombre": "Batgirl",
         "descripcion": "Barbara Gordon es la hija del comisionado de policía de Gotham City, quien se convierte en la heroína Batgirl.",
         "fecha_lanzamiento": "1961-11-01",
-        "foto": "https://example.com/batgirl.jpg"
+        "foto": "source/Batgirl.jpg"
       },
       {
         "nombre": "Supergirl",
         "descripcion": "Kara Zor-El es la prima de Superman que escapa del planeta Krypton y llega a la Tierra.",
         "fecha_lanzamiento": "1959-05-01",
-        "foto": "https://example.com/supergirl.jpg"
+        "foto": "source/Supergirl.jpg"
       },
       {
         "nombre": "Robin",
         "descripcion": "Dick Grayson es el joven compañero de Batman y eventualmente se convierte en Nightwing.",
         "fecha_lanzamiento": "1940-04-01",
-        "foto": "https://example.com/robin.jpg"
+        "foto": "source/robin.jpg"
       },
       {
         "nombre": "Wonder Girl",
         "descripcion": "Donna Troy es una amazona y compañera de Wonder Woman, con habilidades similares.",
         "fecha_lanzamiento": "1965-03-01",
-        "foto": "https://example.com/wondergirl.jpg"
+        "foto": "source/WonderGirl.jpg"
       },
       {
         "nombre": "Black Canary",
         "descripcion": "Dinah Lance es una experta en artes marciales y posee un grito sónico devastador.",
         "fecha_lanzamiento": "1947-11-01",
-        "foto": "https://example.com/blackcanary.jpg"
+        "foto": "source/blackcanary.jpg"
       }
     ]
   }
