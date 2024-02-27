@@ -58,13 +58,13 @@
         "nombre": "Captain Marvel",
         "descripcion": "Carol Danvers adquiere poderes cósmicos después de un accidente con tecnología kree.",
         "fecha_lanzamiento": "1968-03-01",
-        "foto": "https://example.com/captainmarvel.jpg"
+        "foto": "source/captainmarvel.webp"
       },
       {
         "nombre": "Ant-Man",
         "descripcion": "Scott Lang y Hank Pym tienen la capacidad de encogerse hasta el tamaño de una hormiga y aumentar su fuerza.",
         "fecha_lanzamiento": "1962-09-01",
-        "foto": "https://example.com/antman.jpg"
+        "foto": "source/antman.jpg"
       },
       {
         "nombre": "The Wasp",
@@ -76,37 +76,37 @@
         "nombre": "Hawkeye",
         "descripcion": "Clint Barton es un experto arquero y luchador mano a mano, conocido por su puntería.",
         "fecha_lanzamiento": "1964-09-01",
-        "foto": "https://example.com/hawkeye.jpg"
+        "foto": "source/hawkeye.jpg"
       },
       {
         "nombre": "Scarlet Witch",
         "descripcion": "Wanda Maximoff tiene habilidades de manipulación de la realidad y telequinesis.",
         "fecha_lanzamiento": "1964-03-01",
-        "foto": "https://example.com/scarletwitch.jpg"
+        "foto": "source/scarletwitch.jpg"
       },
       {
         "nombre": "Vision",
         "descripcion": "Visión es un sintezoide con fuerza sobrehumana y la capacidad de volar.",
         "fecha_lanzamiento": "1968-11-01",
-        "foto": "https://example.com/vision.jpg"
+        "foto": "source/vision.jpeg"
       },
       {
         "nombre": "Doctor Doom",
         "descripcion": "Victor von Doom es un genio científico y gobernante de Latveria, con una armadura poderosa.",
         "fecha_lanzamiento": "1962-07-01",
-        "foto": "https://example.com/doctordoom.jpg"
+        "foto": "source/doctordoom.webp"
       },
       {
         "nombre": "Deadpool",
         "descripcion": "Wade Wilson es un mercenario con un factor de curación acelerado, conocido por su humor negro.",
         "fecha_lanzamiento": "1991-02-01",
-        "foto": "https://example.com/deadpool.jpg"
+        "foto": "source/deadpool.jpeg"
       },
       {
         "nombre": "Magneto",
         "descripcion": "Erik Lehnsherr puede controlar el magnetismo y lidera la Hermandad de Mutantes.",
         "fecha_lanzamiento": "1963-09-01",
-        "foto": "https://example.com/magneto.jpg"
+        "foto": "source/magneto.jpg"
       },
       {
         "nombre": "Groot",
