@@ -204,18 +204,20 @@ header {
 
 .logo .logoDC{
     width: 4rem;
+    cursor: pointer;
 }
 
 .logo .logoMarvel{
     width: 10rem;
+    cursor: pointer;
 }
-   
+
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
     grid-template-rows: auto;
     gap: 1rem;
-    margin: 0 2rem;   
+    padding: 2rem;  
 }   
 
 .card img{
@@ -229,14 +231,15 @@ header {
     object-fit: cover;
     overflow: hidden;
     border:0;
-    border-radius: 1rem;
     width: 15rem;
     background-color: white;
     display: flex;
     flex-direction: column;
     box-shadow: .2rem .2rem 1rem .2rem black;
     transition: 200ms;
+    clip-path: polygon(0 0, 100% 0, 100% 20%, 100% 96%, 95% 100%, 0 100%, 0% 80%, 0% 20%);
 }
+
 
 .card:hover{
     transform: scale(1.1);
@@ -261,4 +264,57 @@ header {
 }
 .card button:hover{
     transform: scale(1.1);
+}
+
+#miDialogo{
+    margin: auto;
+    padding: 2rem;
+    border: 0;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 100px 10px rgb(0, 0, 0);
+    background-color: white;
+
+}
+
+.cajaDialogo{
+    display: flex;
+    width: 30rem;
+    text-align: left;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.infoDialogo{
+    color: black;
+}
+.infoDialogo #nombreHeroe{
+    font-size: x-large;
+    text-align: center; 
+    font-weight: bolder;
+}
+
+#imagenHeroe{
+    max-width: 15rem;
+    min-width: 15rem;
+}
+
+.imagenBoton {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+#fecha_lanzamiento{
+    text-align: center;
+    margin: auto;
+}
+#cerrar{
+    border:0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    /* border-radius: 1rem;
+    margin-top: 1rem;
+    width: 4rem;*/
+    height: 1.5rem;
 }

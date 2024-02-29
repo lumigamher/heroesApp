@@ -20,7 +20,7 @@ function crearCarta(nombre, descripcion, foto, fecha_lanzamiento) {
     boton.classList.add;
     boton.textContent = 'Ver';
     boton.addEventListener("click", ()=>{
-        abrirDialogo(nombre, descripcion, imagen, fecha_lanzamiento )
+        abrirDialogo(nombre, descripcion, imagen, fecha_lanzamiento)
     })
     infoDiv.appendChild(boton);
     carta.appendChild(infoDiv);
@@ -33,37 +33,13 @@ function crearCarta(nombre, descripcion, foto, fecha_lanzamiento) {
 function agregarCartas(contenedor, heroes) {
     // Iterar sobre los héroes y crear las cartas
     heroes.forEach(function(heroe) {
-        let carta = crearCarta(heroe.nombre, heroe.descripcion, heroe.foto);
+        let carta = crearCarta(heroe.nombre, heroe.descripcion, heroe.foto, heroe.fecha_lanzamiento);
         contenedor.appendChild(carta);
     });
 }
-
-// Cargar el JSON de los héroes
-fetch('heroes.json')
-    .then(response => response.json())
-    .then(data => {
-        // Obtener el contenedor de las cartas
-        let contenedorHeroes = document.querySelector('.cards');
-        // Agregar las cartas de héroes de Marvel
-        let logoMarvel = document.querySelector(".logoMarvel");
-        logoMarvel.addEventListener("click", ()=>{
-            contenedorHeroes.innerHTML="";
-            agregarCartas(contenedorHeroes, data.heroes_marvel);
-        })
-
-        // Agregar las cartas de héroes de DC
-        let logoDC = document.querySelector(".logoDC");
-        logoDC.addEventListener("click",()=>{
-            contenedorHeroes.innerHTML="";
-            agregarCartas(contenedorHeroes, data.heroes_dc);
-        })
-        logoMarvel.click();
-    })
-    .catch(error => console.error('Error al cargar el JSON:', error));
-
 // agregar modal
 let miDialogo = document.getElementById("miDialogo");
-let cerrar= document.getElementById("cerrarDialogo");
+let cerrar= document.getElementById("cerrar");
 
 function abrirDialogo(nombre, descripcion, imagen, fecha_lanzamiento) {
     document.getElementById("nombreHeroe").textContent = nombre;
@@ -75,7 +51,7 @@ function abrirDialogo(nombre, descripcion, imagen, fecha_lanzamiento) {
 function cerrarDialogo() {
     miDialogo.close();
 }
-miDialogo.addEventListener('click', cerrarDialogo);
+cerrar.addEventListener('click', cerrarDialogo);
    
     // Funcion barra de busqueda 
 function buscadorPagina(input){
@@ -100,3 +76,31 @@ function buscadorPagina(input){
 document.getElementById('buscador').addEventListener('input', function() {
     buscadorPagina(this);
 });
+
+// Cargar el JSON de los héroes
+fetch('heroes.json')
+    .then(response => response.json())
+    .then(data => {
+        // Obtener el contenedor de las cartas
+        let contenedorHeroes = document.querySelector('.cards');
+        let body = document.querySelector("body");
+        // Agregar las cartas de héroes de Marvel
+        let logoMarvel = document.querySelector(".logoMarvel");
+        logoMarvel.addEventListener("click", ()=>{
+            contenedorHeroes.innerHTML="";
+            agregarCartas(contenedorHeroes, data.heroes_marvel);
+            body.style.background =  "rgb(36,0,0)";
+            body.style.background =  "linear-gradient(180deg, rgba(36,0,0,1) 0%, rgba(115,36,36,1) 48%, rgba(255,0,0,1) 100%)";
+        })
+
+        // Agregar las cartas de héroes de DC
+        let logoDC = document.querySelector(".logoDC");
+        logoDC.addEventListener("click",()=>{
+            contenedorHeroes.innerHTML="";
+            agregarCartas(contenedorHeroes, data.heroes_dc);
+            body.style.background =  "rgb(0,22,36)";
+            body.style.background =  "linear-gradient(180deg, rgba(0,22,36,1) 0%, rgba(36,93,115,1) 48%, rgba(0,125,255,1) 100%)";
+        })
+        logoMarvel.click();
+    })
+    .catch(error => console.error('Error al cargar el JSON:', error));
